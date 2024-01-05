@@ -1,0 +1,44 @@
+package HighligtingWebElements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class HighlihtingWebElements_inA_WebPage {
+	
+	public static WebDriver driver;
+	
+	
+	public static void highlight(WebElement element) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor)driver;
+		jsExecutor.executeScript("arguments[0].setAttribute('style','background: yellow; border:2x solid red');", element);
+	}
+	
+	public void chapter2() {
+		driver.get("http://www.w3schools.com/");
+	}
+	
+	
+	///html/body/div[2]/div[1]/nav/a[2]
+	
+	public void findAndIdentifyElements() {
+		By excercisesElementProperty = By.xpath("/html/body/div[2]/div[1]/nav/a[2]");
+		WebElement excercisesElement = driver.findElement(excercisesElementProperty);
+	}
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Trainings\\Seleniun-Automation\\CodeBase\\resources\\chromedriver-win64\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+		HighlihtingWebElements_inA_WebPage highlight = new  HighlihtingWebElements_inA_WebPage();
+		highlight.chapter2();
+		highlight.findAndIdentifyElements();
+		
+		By excercisesElementProperty = By.xpath("/html/body/div[2]/div[1]/nav/a[2]");
+		WebElement excercisesElement = driver.findElement(excercisesElementProperty);
+		
+	}
+}

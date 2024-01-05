@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T22:43:17 IST" name="Default suite" finished-at="2023-12-29T22:43:22 IST" duration-ms="5553">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T22:43:17 IST" name="Default test" finished-at="2023-12-29T22:43:22 IST" duration-ms="5553">
+      <class name="com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest@6fd83fc1]" started-at="2023-12-29T22:43:17 IST" name="setUp" finished-at="2023-12-29T22:43:21 IST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orangeHRMApplicationLogInPage_LogInPanelTextValidationTest()[pri:1, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest@6fd83fc1]" started-at="2023-12-29T22:43:21 IST" name="orangeHRMApplicationLogInPage_LogInPanelTextValidationTest" description=" OrangeHRM Application LogIn Page - LOGIN Panel Text Validation" finished-at="2023-12-29T22:43:21 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationLogInPage_LogInPanelTextValidationTest -->
+        <test-method signature="orangeHRMApplicationLogInPage_LogoValidationTest()[pri:2, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest@6fd83fc1]" started-at="2023-12-29T22:43:21 IST" name="orangeHRMApplicationLogInPage_LogoValidationTest" description=" OrangeHRM Applicatin LogIn Page- Logo Validation" finished-at="2023-12-29T22:43:21 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplicationLogInPage_LogoValidationTest -->
+        <test-method signature="orangeHRMApplication_logInTest()[pri:3, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest@6fd83fc1]" started-at="2023-12-29T22:43:21 IST" name="orangeHRMApplication_logInTest" description=" Validating LogIn Functionality of OrangeHRM Application " finished-at="2023-12-29T22:43:22 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMApplication_logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest@6fd83fc1]" started-at="2023-12-29T22:43:22 IST" name="tearDown" finished-at="2023-12-29T22:43:22 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OrangeHRMApplicationTestCases.OrangeHRMLogInPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

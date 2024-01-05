@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OrangeHRM_Cucumber/OrangeHRM_Application/OrangeHRMApplicationTesting.feauture&apos; to &apos;OrangeHRMApplicationTesting.feature&apos;" description="Rename resource &apos;OrangeHRMApplicationTesting.feauture&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="OrangeHRM_Application/OrangeHRMApplicationTesting.feauture" name="OrangeHRMApplicationTesting.feature" stamp="1701188011064" updateReferences="true"/>
+</session>

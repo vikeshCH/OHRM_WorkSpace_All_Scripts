@@ -1,0 +1,20 @@
+2023-12-29 11:07:46,299 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-29 11:07:47,194 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-29 11:07:47,450 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-29 11:07:47,513 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-29 11:07:47,520 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-29 11:07:47,634 - Log -INFO - OrangeHRM Application LogIn Page Image Existing - PASS 
+2023-12-29 11:07:47,974 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-29 11:19:11,285 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-29 11:19:12,024 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-29 11:19:36,729 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-29 16:34:24,701 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-29 16:34:31,790 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-29 16:35:06,569 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-29 22:43:20,183 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-29 22:43:21,348 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-29 22:43:21,604 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-29 22:43:21,662 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-29 22:43:21,666 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-29 22:43:21,752 - Log -INFO - OrangeHRM Application LogIn Page Image Existing - PASS 
+2023-12-29 22:43:22,928 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****

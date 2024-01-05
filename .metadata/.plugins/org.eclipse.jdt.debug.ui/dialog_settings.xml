@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="expressionHistory">
+	</section>
+	<section name="AddExceptionDialog">
+		<item key="caughtChecked" value="true"/>
+		<item key="uncaughtChecked" value="true"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=CodeBase/src&amp;lt;javabasics{StudentData.java[StudentData&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS{NoArgsAndParameterizedConstructors.java[NoArgsAndParameterizedConstructors&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS{Employee.java[Employee3&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS{Employee.java[Employee&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS{AccessMethodin2ndClass.java[AccessMethodin2ndClass&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS{AccessMethodin2ndClass4.java[AccessMethodin2ndClass2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS_Concepts_Part1{NoArgsAndParameterizedConstructors_5.java[NoArgsAndParameterizedConstructors2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS_Concepts_Part1{ExStudentNumber_3.java[ExStudentNumber4&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS_Concepts_Part1{Employee_2.java[Employee3&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS_Concepts_Part1{Employee_2.java[Employee_2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=OrangeHRM/src&amp;lt;OOPS_Concepts_Part1{AccessMethodin2ndClass_4.java[AccessMethodin2ndClass2&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="669"/>
+			<item key="DIALOG_Y_ORIGIN" value="186"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="conditionHistory">
+	</section>
+</section>

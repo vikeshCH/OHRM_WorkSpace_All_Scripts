@@ -1,0 +1,23 @@
+package HighligtingWebElements;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Highlight_no_of_WebElements_Using_JsExecutor {
+	public static WebDriver driver;
+	public void name() {
+		
+	}
+	
+	public void highlight(WebElement element) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeAsyncScript("arguments[0].setAttribute('style','background: yellow; border:2px solid red');", null);
+	}
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Trainings\\Seleniun-Automation\\CodeBase\\resources\\chromedriver-win64\\chromedriver.exe");
+	}
+}

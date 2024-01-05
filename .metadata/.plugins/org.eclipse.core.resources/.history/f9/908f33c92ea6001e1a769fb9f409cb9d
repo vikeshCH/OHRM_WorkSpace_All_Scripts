@@ -1,0 +1,21 @@
+package HighligtingWebElements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class HighlihtingWebElements_inA_WebPage {
+	
+
+	
+	public static void main(String[] args) {
+		
+		
+		JavascriptExecutor jsExecutor = (JavascriptExecutor)driver;
+		jsExecutor.executeScript("arguments[0].setAttribute('style','background: yellow; border:2x solid red');", element);
+		
+	}
+}

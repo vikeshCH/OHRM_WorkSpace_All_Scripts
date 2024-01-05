@@ -1,0 +1,25 @@
+package com.StepDefination;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+
+public class OrangeHRM {
+	@Given("Launch ChromeBrowser")
+	public void launch_chrome_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Enter OrangeHRM URL")
+	public void enter_orange_hrm_url() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("Enter username,password and click on Login")
+	public void enter_username_password_and_click_on_login() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

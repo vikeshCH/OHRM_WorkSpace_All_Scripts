@@ -1,0 +1,9 @@
+package HighligtingWebElements;
+
+import org.openqa.selenium.WebElement;
+
+public class HighlihtingWebElements_inA_WebPage {
+	public void highlight(WebElement element) {
+		
+	}
+}

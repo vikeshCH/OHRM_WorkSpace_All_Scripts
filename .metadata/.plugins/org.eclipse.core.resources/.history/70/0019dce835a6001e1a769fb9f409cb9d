@@ -1,0 +1,30 @@
+package HighligtingWebElements;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Highlight_no_of_WebElements_Using_JsExecutor {
+	public static WebDriver driver;
+	public void highlightWebElements() {
+		driver.get("https://www.w3schools.com/");
+		
+		///html/body/div[2]/div[1]/nav/a[2]
+		highlight(driver.findElement(By.xpath("/html/body/div[2]/div[1]/nav/a[2]")));
+	}
+	
+	public void highlight(WebElement element) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeAsyncScript("arguments[0].setAttribute('style','background: yellow; border:2px solid red');", element);
+	}
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Trainings\\Seleniun-Automation\\CodeBase\\resources\\chromedriver-win64\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+}

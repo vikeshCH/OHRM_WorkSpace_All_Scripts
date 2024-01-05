@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestData_For_OrangeHRM_Appliction.xlsx&apos; to &apos;Resources&apos;&#x0D;&#x0A;- Original project: &apos;OrangeHRM_SriniSir&apos;&#x0D;&#x0A;- Destination element: &apos;Resources&apos;&#x0D;&#x0A;- Original element: &apos;TestData_For_OrangeHRM_Appliction.xlsx&apos;" description="Copy file" element1="src/main/resources/TestData_For_OrangeHRM_Appliction.xlsx" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1701446322126" target="/OrangeHRM/Resources" units="0" version="1.0"/>
+</session>

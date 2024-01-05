@@ -1,0 +1,23 @@
+package LogoutLink_Click_In_OHRMApplication;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Click_On_Logout_link_In_OHRMApplication {
+	static WebDriver driver;
+	static String applicationUrl = "http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	
+	public void loginFunctionality() {
+		WebElement userName = driver.findElement(By.id("txtUsername"));
+		WebElement password = driver.findElement(By.id("txtpassword"));
+
+	}
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./resources/chromedriver-win64/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(applicationUrl);
+	}
+}
